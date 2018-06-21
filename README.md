@@ -59,9 +59,6 @@ This theme comes in nine different skins (including the default one).
 
 Additional sample posts are available under [posts archive][year-archive] on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs).
 
-[header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
-[gallery-post]: https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/
-[html-tags-post]: https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/
 [syntax-post]: https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/
 [sample-collection]: https://mmistakes.github.io/minimal-mistakes/recipes/chocolate-chip-cookies/
 [categories-archive]: https://mmistakes.github.io/minimal-mistakes/categories/
