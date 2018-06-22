@@ -14,21 +14,19 @@ title_separator          : "-"
 name                     : &name "Zou Yong"
 description              : &description "zouyong&apos;s personal website"
 keywords                 : "Web前端, 前端开发, personal website, 个人博客, 个人网站"
-url                      : https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://zouyongzou.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "mmistakes/minimal-mistakes"
+repository               : "zouyongzou/zouyongzou.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman" # false (default), "disqus", "discourse",  "google-plus", "staticman", "custom"
+  provider               : "staticman_v2" # false (default), "disqus", "discourse",  "google-plus", "staticman", "custom"
   disqus:
     shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : master # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -42,6 +40,7 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -188,7 +187,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:

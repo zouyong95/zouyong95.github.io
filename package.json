@@ -1,18 +1,22 @@
 {
-  "name": "minimal-mistakes",
-  "version": "4.11.2",
-  "description": "Minimal Mistakes Jekyll theme npm build scripts",
+  "name": "zouyongzou",
+  "version": "1.0.0",
+  "description": "npm build scripts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "git://github.com/zouyongzou/zouyongzou.github.io.git"
   },
-  "keywords": ["jekyll", "theme", "minimal"],
-  "author": "Michael Rose",
+  "keywords": [
+    "jekyll",
+    "theme",
+    "website"
+  ],
+  "author": "zouyong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
+    "url": "https://github.com/zouyongzou/zouyongzou.github.io/issues"
   },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "homepage": "https://zouyongzou.github.io/",
   "engines": {
     "node": ">= 0.10.0"
   },
