@@ -21,9 +21,9 @@ teaser                   : # filename of teaser fallback teaser image placed in 
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman_v2" # false (default), "disqus", "discourse",  "google-plus", "staticman", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse",  "google-plus", "staticman", "custom"
   disqus:
-    shortname            :
+    shortname            : zouyongzou
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : master # "master", "gh-pages"
