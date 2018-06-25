@@ -57,8 +57,10 @@ en-AU:
 # --------------------------------
 zh: &DEFAULT_ZH_HANS
   page                       : "页面"
-  pagination_previous        : "向前"
-  pagination_next            : "向后"
+  pagination_previous        : '<i class="fa fa-chevron-left" aria-hidden="true"></i>'
+  pagination_next            : '<i class="fa fa-chevron-right" aria-hidden="true"></i>'
+  post_previous              : "上一篇"
+  post_next                  : "下一篇"
   breadcrumb_home_label      : "首页"
   breadcrumb_separator       : "/"
   menu_label                 : "切换菜单"

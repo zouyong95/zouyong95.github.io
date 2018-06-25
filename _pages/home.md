@@ -1,39 +1,33 @@
 ---
 layout: splash
 permalink: /
-header:
-  overlay_color: "#5e616c"
-  cta_label: "Learn More"
-  cta_url: "/docs/quick-start-guide/"
-  caption:
-excerpt: 'zouyong&apos;s personal website  and portfolios hosted on GitHub or your own server.<br /> <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.10.1">Latest release v4.11.2</a></small><br /><br /> '
+title: 首页
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super Customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: 
+    alt: "博客"
+    title: "博客"
+    excerpt: "记录一些事情"
+    url: "/blog/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive Layouts"
-    excerpt: "Built on HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+  - image_path: 
+    alt: "翻译文档"
+    title: "翻译文档"
+    excerpt: "翻译、整理的一些文档"
+    url: "/blog/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% Free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"
-    url: "/docs/license/"
+  - image_path: 
+    alt: "网站收藏"
+    title: "网站收藏"
+    excerpt: "常去的一些网站"
+    url: "/sites"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-github:
-  - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
-intro:
-  - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fab fa-twitter"></i> @mmistakes](https://twitter.com/mmistakes){: .btn .btn--twitter} [<i class="fab fa-paypal"></i> Tip Me](https://www.paypal.me/mmistakes){: .btn .btn--primary}'
+
 ---
+# `努力做一个优秀的人.`
+<br>
 
 {% include feature_row id="intro" type="center" %}
 

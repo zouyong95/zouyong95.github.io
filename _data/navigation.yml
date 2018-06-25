@@ -4,7 +4,3 @@ main:
     url: /blog/
   - title: "关于"
     url: /about/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
