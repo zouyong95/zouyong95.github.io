@@ -8,9 +8,6 @@ categories:
 last_modified_at: 2018-06-21
 toc: true
 toc_sticky: true
-header:
-  teaser: /assets/images/page-header-teaser.png
-  og_image: /assets/images/page-header-og-image.png
 ---
 
 ## 文件结构
@@ -216,8 +213,6 @@ Standard image with no width modifier classes applied.
 {% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/filename.jpg){% endraw %}
 ```
 
-![Unsplash image 9]({{ site.url }}{{ site.baseurl }}/assets/images/unsplash-image-9.jpg)
-
 Image that fills page content container by adding the `.full` class with:
 
 **HTML:**
@@ -233,8 +228,6 @@ Image that fills page content container by adding the `.full` class with:
 {: .full}{% endraw %}
 ```
 
-![Unsplash image 10]({{ site.url }}{{ site.baseurl }}/assets/images/unsplash-image-10.jpg)
-{: .full}
 
 This post has a teaser image with an OpenGraph override.
 
@@ -256,10 +249,6 @@ Stairs? Were we're going we don't need no stairs.
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
   <figcaption>{{ fig_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
 </figure>
-
-{% capture fig_img %}
-![Foo]({{ "/assets/images/unsplash-gallery-image-3.jpg" | relative_url }})
-{% endcapture %}
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
