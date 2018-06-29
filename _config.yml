@@ -14,7 +14,7 @@ baseurl                  : ""
 repository               : "zouyong95/zouyong95.github.io"
 teaser                   : '' # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : true
-words_per_minute         : 200
+words_per_minute         : 100
 comments:
   provider               : "disqus"
   disqus:
@@ -46,7 +46,7 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/avatar.jpg"
-  bio              : "就这样胖下去"
+  bio              : "好好学习，天天写 bug"
   location         : "C.S, China"
   email            :  zouyongzou#foxmail.com
   uri              : "https://zouyongsite.com"

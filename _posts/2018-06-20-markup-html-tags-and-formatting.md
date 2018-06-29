@@ -1,13 +1,7 @@
 ---
 title: "Markup: HTML Tags and Formatting"
-categories:
-  - Markup
 tags:
-  - content
-  - css
-  - formatting
-  - html
-  - markup
+  - Jekyll
 toc: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /
-title: 首页
+title: 个人网站
 feature_row:
   - image_path: 
     alt: "博客"

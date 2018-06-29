@@ -5,6 +5,8 @@ comments: true
 search: true
 categories: 
   - document
+tags:
+  - Jekyll
 last_modified_at: 2018-06-21
 toc: true
 toc_sticky: true

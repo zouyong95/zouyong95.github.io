@@ -2,31 +2,31 @@
 title:    "Jekyll 搭建博客（测试）"
 date:     2016-04-15
 excerpt:  Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过 Markdown （或者 Textile） 以及 Liquid 转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。
-tags:     [其它]
+tags:     [Jekyll]
 ---
 
-本文为测试文章，具体搭建详情请移步[Jekyll官网](http://jekyll.com.cn/docs/home/)
-{: .notice}
+本文为测试文章，具体搭建详情请移步[ Jekyll 官网](http://jekyll.com.cn/docs/home/)
+{: .notice--warning}
 
-## 1、Jekyll介绍
+## 1、Jekyll 介绍
 Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过 Markdown （或者 Textile） 以及 Liquid 转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。
 
 ## 2、安装
-Jekyll基于Ruby运行，首先得安装[Ruby](https://www.ruby-lang.org/en/downloads/)和[RubyGems](https://rubygems.org/pages/download)，可自行选择下载相应版本。windows下可以使用Jekyll running on Windows，官方文档并不建议在Windows平台安装Jekyll。gems是Ruby的一个打包工具和包安装工具。安装成功后，打开终端：
+Jekyll 基于 Ruby 运行，首先得安装[ Ruby ](https://www.ruby-lang.org/en/downloads/)和[ RubyGems](https://rubygems.org/pages/download)，可自行选择下载相应版本。windows 下可以使用 Jekyll running on Windows，官方文档并不建议在 Windows 平台安装 Jekyll。gems 是 Ruby 的一个打包工具和包安装工具。安装成功后，打开终端：
 ```
 $ gem install jekyll
 ```
 如安装中碰到问题，可去 [troubleshooting](http://jekyll.com.cn/docs/troubleshooting/) 或者 [report an issue](https://github.com/jekyll/jekyll/issues/new) 
 
 ```
-// 生成Jekyll模板
+// 生成 Jekyll 模板
 ~ $ gem install jekyll
 ~ $ jekyll new myblog
 ~ $ cd myblog
 ~/myblog $ jekyll serve
 // => Now browse to http://localhost:4000
 ```
-ps：如果jekyll serve失败，可查看错误信息，看是否有相关依赖包未安装。
+ps：如果 jekyll serve 失败，可查看错误信息，看是否有相关依赖包未安装。
 ## 3、基本用法
 ```
 $ jekyll build
@@ -87,5 +87,3 @@ $ jekyll serve --watch
 | index.html  |包含 YAML 头信息部分，Jekyll 自动转换 |
 | Other Files/Folders | 完全拷贝到生成的 site 中 
 {: rules="groups"}
-
-（完）
